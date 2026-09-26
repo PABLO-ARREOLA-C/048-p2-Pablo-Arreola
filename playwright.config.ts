@@ -6,7 +6,7 @@ export default defineConfig({
     timeout: 30000,
     retries: 1,           // reintentar tests fallidos 1 vez
     use: {
-        baseURL: 'https://www.saucedemo.com',
+        baseURL: 'https://katalon-demo-cura.herokuapp.com',
         headless: true,
         screenshot: 'on',   // 'on' | 'off' | 'only-on-failure'
         video: 'on',        // 'on' | 'off' | 'retain-on-failure'
